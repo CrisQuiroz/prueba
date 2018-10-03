@@ -1,0 +1,80 @@
+.navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+}
+.nav-item{
+    font-size: 22px;
+}
+
+.carousel,
+.slide,
+.carousel .carousel-inner,
+.carousel .carousel-item,
+.carousel .carousel-item img,
+.carousel .carousel-control {
+    border-radius: 22px;
+    overflow: hidden;
+}
+
+#map {
+    height: 500px;
+    border-radius: 22px;
+}
+  
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 576px) { 
+    .carousel-item img{
+        height: 500px;
+    }
+}
+
+@media (min-width: 576px) { 
+
+    .carousel-item img{
+        height: 700px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .carousel-item img{
+        height: 700px;
+    }
+}
+
+@media (min-width: 992px) {
+    .carousel-item img{
+        height: 700px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .carousel-item img{
+        height: 700px;
+    }
+}
+.pie {
+    font-size: 22px;
+    text-align: center;
+}
+
+.pie ul {
+    list-style: none;
+}
+
+.pie ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.pie ul li a:hover {
+    color: white;
+}
+
+.pie ul li a:active {
+    color: black;
+}
